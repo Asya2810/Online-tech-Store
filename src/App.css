@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 * {
   background-color: OldLace;
 }
+#right-panel-link
+{
+ /* padding: 10px; */
+ margin: 12px;
+}
 
 .App {
+  display: flex;
+  flex-direction: row;
   text-align: center;
 }
 
@@ -53,6 +61,7 @@ h1 {
 
 .picture:hover{
   transform:scale(1.5);
+  border-radius: 75%;
 
 }
 
@@ -73,4 +82,3 @@ div {
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
  }
-
