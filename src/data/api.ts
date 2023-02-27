@@ -1,6 +1,5 @@
-import ProductInfo from "../components/ProductInfo";
-
-export const Product = [
+import ProductInfo from "../productInfo";
+export const product = [
     {
         id: 1,
         productName: 'Laptop',
@@ -44,4 +43,3 @@ export const Product = [
         conditon: 'FactoryNew'
     }
 ];
-
